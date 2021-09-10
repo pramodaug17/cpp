@@ -67,8 +67,5 @@ void run_test(void) {
     cout << "Creating Dog toy...\n";
     myToy = softToyFactory.createToy(2);
     myToy->display();
-    delete myToy;
-    
-    cout << "\n\n";
 }
 }

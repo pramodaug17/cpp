@@ -66,7 +66,5 @@ void run_test(void) {
     cout << "Try car strategy: ";
     navi.setRouteType(carRoute);
     navi.display();
-    
-    cout << "\n\n";
 }
 }

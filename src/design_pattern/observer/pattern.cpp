@@ -83,7 +83,5 @@ void run_test(void) {
     
     cout << "Unsubscribe ConcreteObservable\n";
     myCOable.remove(&myCOer);
-    
-    cout << "\n\n";
 }
 }

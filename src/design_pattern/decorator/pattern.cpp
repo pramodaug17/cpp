@@ -79,7 +79,5 @@ void run_test(void) {
     smsFb->sendNotification();
     fbMail->sendNotification();
     allnotifier->sendNotification();
-    
-    cout << "\n\n";
 }
 }
