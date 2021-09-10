@@ -1,0 +1,8 @@
+# VS Code files
+*.code-workspace
+
+# C/CPP object files and out file
+*.out
+*.o
+
+/bin
