@@ -29,6 +29,10 @@ namespace singleton {
     void run_test(void);
 }
 
+namespace adapter {
+    void run_test(void);
+}
+
 namespace test {
 
 void execute() {
@@ -52,6 +56,9 @@ void execute() {
     cout << "\n\n";
 
     singleton::run_test();
+    cout << "\n\n";
+
+    adapter::run_test();
 } // End of execute function
 
 } // End of test namespace
