@@ -49,6 +49,9 @@ void execute() {
     cout << "\n\n";
     
     command::run_test();
+    cout << "\n\n";
+
+    singleton::run_test();
 } // End of execute function
 
 } // End of test namespace

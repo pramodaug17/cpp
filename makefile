@@ -14,11 +14,11 @@ LDIR=$(HOME)/lib
 #----------------------------------------------------------
 # Compiler and it option
 #----------------------------------------------------------
-CC=gcc
-CXX=g++
+CC=gcc-11
+CXX=g++-11
 IFLAGS= -I$(IDIR)
 CFLAGS= -Wall -c 
-CXXFLAGS= -std=c++17 -Wall -c
+CXXFLAGS= -std=c++17 -std=gnu++17
 LFLAGS=
 LDIR=
 LIBS=
@@ -42,14 +42,14 @@ $(ODIR)/%.o: $(SDIR)/%.c | $(ODIR)
 
 $(ODIR)/%.o: $(SDIR)/%.cpp | $(ODIR)
 	@mkdir -p $(dir $@)
-	$(CXX) $(IFLAGS) $(CXXFLAGS) $^ -o $@
+	$(CC) $(IFLAGS) $(CXXFLAGS) $(CFLAGS) $^ -o $@
 
 #----------------------------------------------------------
 # Rules
 #----------------------------------------------------------
 $(OUT): $(OBJS)
 	@echo "\n\nGenerating output file..."
-	$(CXX) $(LFLAGS) $(LDIR) $(LIBS) $(OBJS) -o $@
+	$(CXX) $(CXXFLAGS) $(LFLAGS) $(LDIR) $(LIBS) $^ -o $@
 
 $(ODIR):
 	@mkdir -p $@
