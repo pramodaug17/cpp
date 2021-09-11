@@ -4,5 +4,5 @@ expect. Adapter lets classes work together that couldn’t otherwise because of
 incompatible interfaces.
 
 ## Class Diagram
-![adapter design pattern](https://www.uml-diagrams.org/examples/class-example-abstract-factory.png "Adapter Design Pattern")
+![adapter design pattern](https://media.geeksforgeeks.org/wp-content/uploads/classDiagram.jpg "Adapter Design Pattern")
 
