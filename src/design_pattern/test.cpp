@@ -33,6 +33,10 @@ namespace adapter {
     void run_test(void);
 }
 
+namespace facade {
+    void run_test(void);
+}
+
 namespace test {
 
 void execute() {
@@ -59,6 +63,9 @@ void execute() {
     cout << "\n\n";
 
     adapter::run_test();
+    cout << "\n\n";
+
+    facade::run_test();
 } // End of execute function
 
 } // End of test namespace
