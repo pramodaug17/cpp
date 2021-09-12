@@ -1,5 +1,8 @@
 /*
  * Singleton Pattern
+ *
+ * Singleton Pattern ensures a class has only one instance, and provides a 
+ * global point of access to it.
  */
 #include<iostream>
 

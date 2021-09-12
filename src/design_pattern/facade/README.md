@@ -1,4 +1,5 @@
 # Facade Design Pattern
+## Definition
 Facade provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level of interface that makes the subsystem easier to use.
 
 ## Class Diagram
