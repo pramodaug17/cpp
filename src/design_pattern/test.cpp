@@ -37,6 +37,10 @@ namespace facade {
     void run_test(void);
 }
 
+namespace proxy {
+    void run_test(void);
+}
+
 namespace test {
 
 void execute() {
@@ -66,6 +70,9 @@ void execute() {
     cout << "\n\n";
 
     facade::run_test();
+    cout << "\n\n";
+
+    proxy::run_test();
 } // End of execute function
 
 } // End of test namespace
