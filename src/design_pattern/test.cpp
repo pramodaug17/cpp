@@ -41,6 +41,10 @@ namespace proxy {
     void run_test(void);
 }
 
+namespace bridge {
+    void run_test(void);
+}
+
 namespace test {
 
 void execute() {
@@ -73,6 +77,9 @@ void execute() {
     cout << "\n\n";
 
     proxy::run_test();
+    cout << "\n\n";
+
+    bridge::run_test();
 } // End of execute function
 
 } // End of test namespace
