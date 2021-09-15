@@ -45,6 +45,12 @@ namespace bridge {
     void run_test(void);
 }
 
+namespace templateP
+{
+    void run_test(void);
+} // namespace templateP
+
+
 namespace test {
 
 void execute() {
@@ -80,6 +86,9 @@ void execute() {
     cout << "\n\n";
 
     bridge::run_test();
+    cout << "\n\n";
+
+    templateP::run_test();
 } // End of execute function
 
 } // End of test namespace
