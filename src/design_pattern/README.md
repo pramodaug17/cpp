@@ -25,8 +25,8 @@ Design Patterns are classified 3 categories based on what kind of problem they s
 Creational patterns provide the capability to create objects based on a required criterion and in a controlled way. 
 
 List of creational design patterns
-- [Factory Pattern](factory/README.md)
 - [Abstract Factory Pattern](abstract_factory/README.md)
+- [Factory Pattern](factory/README.md)
 - [Singleton Pattern](singleton/README.md)
 
 
@@ -38,6 +38,7 @@ Structural patterns are about organizing different classes and objects to form l
 List of structural design patterns
 - [Adapter Pattern](adapter/README.md)
 - [Bridge Pattern](bridge/README.md)
+- [Composite Pattern](composite/README.md)
 - [Decorator Pattern](decorator/README.md)
 - [Facade Pattern](facade/README.md)
 - [Proxy Pattern](proxy/README.md)

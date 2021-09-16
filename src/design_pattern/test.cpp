@@ -50,6 +50,11 @@ namespace templateP
     void run_test(void);
 } // namespace templateP
 
+namespace composite
+{
+    void run_test(void);
+} // namespace composite
+
 
 namespace test {
 
@@ -89,6 +94,9 @@ void execute() {
     cout << "\n\n";
 
     templateP::run_test();
+    cout << "\n\n";
+
+    composite::run_test();
 } // End of execute function
 
 } // End of test namespace
