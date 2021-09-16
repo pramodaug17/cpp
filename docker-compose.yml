@@ -1,0 +1,9 @@
+version: "1.0.0"
+services:
+  cpprun:
+    image: cpp:1.0.1
+    tty: true
+    stdin_open: true
+    volumes: 
+      - ./:/cpp
+

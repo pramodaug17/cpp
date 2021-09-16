@@ -14,8 +14,8 @@ LDIR=$(HOME)/lib
 #----------------------------------------------------------
 # Compiler and it option
 #----------------------------------------------------------
-CC=gcc-11
-CXX=g++-11
+CC=gcc-8
+CXX=g++-8
 IFLAGS= -I$(IDIR)
 CFLAGS= -Wall -c 
 CXXFLAGS= -std=c++17 -std=gnu++17
