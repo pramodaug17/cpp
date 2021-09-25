@@ -55,6 +55,11 @@ namespace composite
     void run_test(void);
 } // namespace composite
 
+namespace iterator
+{
+    void run_test(void);
+}  // namespace iterator
+
 
 namespace test {
 
@@ -97,6 +102,9 @@ void execute() {
     cout << "\n\n";
 
     composite::run_test();
+    cout << "\n\n";
+
+    iterator::run_test();
 } // End of execute function
 
 } // End of test namespace
