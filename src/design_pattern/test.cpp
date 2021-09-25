@@ -6,7 +6,8 @@
 using namespace std;
 
 namespace design_patterns {
-/* Forwaqre declaration */
+
+/* Forward declaration */
 namespace decorator {
     void run_test(void);
 }
