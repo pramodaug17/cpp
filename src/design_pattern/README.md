@@ -52,5 +52,6 @@ List of behavioral design patterns
 - [Command Pattern](command/README.md)
 - [Iterator Pattern](iterator/README.md)
 - [Observer Pattern](observer/README.md)
-- [Strtegy Pattern](strategy/README.md)
+- [State Pattern](state/README.md)
+- [Strategy Pattern](strategy/README.md)
 - [Template Method Pattern](template/README.md)

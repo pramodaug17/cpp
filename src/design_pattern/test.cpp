@@ -60,6 +60,9 @@ namespace iterator
     void run_test(void);
 }  // namespace iterator
 
+namespace state {
+    void run_test(void);
+}
 
 namespace test {
 
@@ -105,6 +108,9 @@ void execute() {
     cout << "\n\n";
 
     iterator::run_test();
+    cout << "\n\n";
+
+    state::run_test();
 } // End of execute function
 
 } // End of test namespace
